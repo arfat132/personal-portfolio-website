@@ -227,12 +227,14 @@ span{
     transition: 1s;
 }
 
-.contact {
-    margin: 100px;
+#contact-section{
+    margin-bottom: 90px;
+    overflow: hidden;
 }
 
 .contact {
   text-align: center;
+  margin: 100px;
     font-size: 50px;
     margin-top: -50px;
 }
@@ -240,7 +242,6 @@ span{
 .contact-details {
     display: flex;
  
-    
 }
 
 .contact-info {
@@ -356,7 +357,7 @@ input{
 }
 
 textarea {
-   width: 95%;
+  width: 95%;
   height: 150px;
   padding: 16px;
   margin-top: 20px;
